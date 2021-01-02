@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TrainingFaq</class>
+ <widget class="QDialog" name="TrainingFaq">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>244</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>F.A.Q.</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>210</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Fermer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>621</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Récupérer un fichier .UPK</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>621</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pour récupérer un fichier UPK, il faut d'abord récupéré le lien de celui-ci sur le workshop Steam de Rocket League.</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+   <property name="openExternalLinks">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>370</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>621</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> Rendez-vous sur &lt;a href=&quot;https://steamcommunity.com/app/252950/workshop/&quot;&gt;&lt;span style=&quot;text-decoration: underline;color:#0000ff;&quot;&gt;https://steamcommunity.com/app/252950/workshop/&lt;/span&gt;&lt;/a&gt; puis choisissez la map qui vous plais, et copier son lien (exemple: https://steamcommunity.com/sharedfiles/filedetails/?id=2329319460&amp;searchtext=).</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+   <property name="openExternalLinks">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>621</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ensuite, allez sur &lt;a href=&quot;https://steamworkshopdownloader.io/&quot;&gt;&lt;span style=&quot;text-decoration: underline;color:#0000ff;&quot;&gt;https://steamworkshopdownloader.io/&lt;/span&gt;&lt;/a&gt; et copier le lien. Vous pourrez ensuite télécharger la (ou les, dans le cas d'une collection) map et l'ajouter à vos entrainements.</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+   <property name="openExternalLinks">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>TrainingFaq</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>597</x>
+     <y>461</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

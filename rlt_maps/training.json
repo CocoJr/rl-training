@@ -1,0 +1,20 @@
+{
+   "[RLT] Aérial": "RLT_aerial_training.udk",
+   "[RLT] AIM": "RLT_AimTrainingRL.udk",
+   "[RLT] Air dribble": "RLT_AirDribble_Challenge.udk",
+   "[RLT] Dribble débutant": "RLT_dribble_noob.udk",
+   "[RLT] Dribble": "RLT_Dribbling_1_2.udk",
+   "[RLT] Dribble intermédiaire": "RLT_DribblingChallenge2.udk",
+   "[RLT] Obstacle": "RLT_ObstacleCourse1.udk",
+   "[RLT] Obstacle 2": "RLT_ObstacleChallenge2.udk",
+   "[RLT] Panics air race": "RLT_PanicsAirRace.udk",
+   "[RLT] Aérienne anneaux": "RLT_rings1.udk",
+   "[RLT] Aérienne anneaux 2": "RLT_rings2.udk",
+   "[RLT] Aérienne anneaux 3": "RLT_rings3.udk",
+   "[RLT] Speed jump trial": "RLT_sjt1.udk",
+   "[RLT] Speed jump trial 2": "RLT_sjt2.udk",
+   "[RLT] Speed jump trial 3": "RLT_sjt3.udk",
+   "[RLT] Speed jump trial 4": "RLT_sjt4.udk",
+   "[RLT] Speed jump": "RLT_speed_jump.udk",
+   "[RLT] Speed jump 2": "RLT_speed_jump_2.udk"
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file compress="1">training/map.json</file>
+    <file compress="1">training/training.json</file>
+    <file compress="1">training/AimTrainingRL.udk</file>
+    <file compress="1">training/AirDribble_Challenge.udk</file>
+    <file compress="1">training/BeachVolleyWall.udk</file>
+    <file compress="1">training/dribble_noob.udk</file>
+    <file compress="1">training/DribblingChallenge2.udk</file>
+    <file compress="1">training/gidek_challenge_1.udk</file>
+    <file compress="1">training/hornest_nest.udk</file>
+    <file compress="1">training/LethFallGuys.udk</file>
+    <file compress="1">training/Minigolf.udk</file>
+    <file compress="1">training/ObstacleChallenge2.udk</file>
+    <file compress="1">training/ObstacleCourse1.udk</file>
+    <file compress="1">training/PanicsAirRace.udk</file>
+    <file compress="1">training/rings1.udk</file>
+    <file compress="1">training/rings2.udk</file>
+    <file compress="1">training/rings3.udk</file>
+    <file compress="1">training/sjt1.udk</file>
+    <file compress="1">training/sjt2.udk</file>
+    <file compress="1">training/sjt3.udk</file>
+    <file compress="1">training/sjt4.udk</file>
+    <file compress="1">training/speed_jump.udk</file>
+    <file compress="1">training/speed_jump_2.udk</file>
+</qresource>
+</RCC>
