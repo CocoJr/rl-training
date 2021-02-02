@@ -59,7 +59,7 @@ bool Training::installTrainingMap(QString configurationKey)
         }
 
         this->parent->showDlWindow();
-        this->parent->getFileManager()->downloadFileFromRepository("rlt_maps/" + trainingFilename, "./" + trainingFilename);
+        this->parent->getFileManager()->downloadFileFromRepository(trainingFilename, "./" + trainingFilename);
         this->parent->hideDlWindow();
     }
 
