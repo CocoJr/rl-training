@@ -50,7 +50,7 @@ QJsonObject FileManager::getJsonObject(QString filename)
 void FileManager::downloadFileFromRepository(QString filename, QString destination)
 {
     QNetworkAccessManager manager;
-    QNetworkReply *response = manager.get(QNetworkRequest(QUrl(this->repositoryUrl + filename)));
+    QNetworkReply *response = manager.get(QNetworkRequest(QUrl(this->repositoryUrl + "/raw/v3.1/" + filename)));
     QEventLoop event;
     connect(response, SIGNAL(finished()), &event, SLOT(quit()));
     event.exec();
